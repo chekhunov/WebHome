@@ -1,0 +1,42 @@
+.closed-btn {
+  position: absolute;
+  background-color: transparent;
+  width: 20px!important;
+  top: 30px;
+  right: 30px;
+  left: auto;
+    border: none;
+
+    &__line{
+    position: relative;
+    height: 0;
+    width: 20px;
+    padding: 10px;
+    
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+    &::before,
+    &::after {
+      position: absolute;
+      content: '';
+      width: 20px;
+      height: 2px;
+      right: 0;
+      background-color: $default;
+      transition: transform 0.3s;
+    }
+
+    &::before {
+        top: 8px;
+        margin-bottom: 0;
+        transform: rotate(45deg);  
+    }
+
+    &::after {
+        bottom: 10px;
+        transform: rotate(-45deg);
+    }
+  }
+}

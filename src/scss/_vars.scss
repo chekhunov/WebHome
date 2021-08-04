@@ -1,0 +1,28 @@
+$default: #342314; //шрифт
+$title: #1EAEFF; // заголовки bg
+$hover: #1EC4FF;
+$disable: #E8E8E8;
+
+%helvetica-400 {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 400;
+}
+
+%helvetica-700 {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 700;
+}
+
+%helvetica-900 {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 900;
+}
+
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

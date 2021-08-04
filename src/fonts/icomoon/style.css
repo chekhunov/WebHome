@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?oamq00');
+  src:  url('fonts/icomoon.eot?oamq00#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oamq00') format('truetype'),
+    url('fonts/icomoon.woff?oamq00') format('woff'),
+    url('fonts/icomoon.svg?oamq00#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrowleft:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-arrowright:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-check:before {
+  content: "\e311";
+}
+.icon-arright:before {
+  content: "\e310";
+  color: #fff;
+}
+.icon-ardown:before {
+  content: "\e300";
+}
+.icon-arleft:before {
+  content: "\e301";
+  color: #fff;
+}
+.icon-location:before {
+  content: "\e302";
+  color: #cdbaaa;
+}
+.icon-user:before {
+  content: "\e303";
+  color: #cdbaaa;
+}
+.icon-phone:before {
+  content: "\e304";
+  color: #cdbaaa;
+}
+.icon-phonenew:before {
+  content: "\e305";
+  color: #cdbaaa;
+}
+.icon-mail:before {
+  content: "\e306";
+  color: #cdbaaa;
+}
+.icon-instagram:before {
+  content: "\e307";
+  color: #fff;
+}
+.icon-facebook:before {
+  content: "\e308";
+  color: #fff;
+}
+.icon-calendar:before {
+  content: "\e309";
+}
